@@ -8,7 +8,7 @@
     $ cmake ..
     $ make -j`nproc` && make install
     
-move install/ include and lib folder to DMS folder
+move install/include and lib folder to DMS folder
 ```
 └─DMS
     ├─include
