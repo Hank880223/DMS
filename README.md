@@ -24,12 +24,47 @@ move install/include and lib folder to DMS folder
     $ cmake ..
     $ make -j`nproc`
 
-## Run
+## Run Folder
 
 ```
-└─DMS
-    ├─models
-    │   ├─yolov3-tiny_obj_opt.param
-    │   └─yolov3-tiny_obj_opt.bin
-    └─tracking
+└─build folder
+    ├─model
+    │   ├─det1.bin
+    │   ├─det1.param
+    │   ├─det2.bin
+    │   ├─det2.param
+    │   ├─det3.bin
+    │   ├─det3.param
+    │   ├─face.bin
+    │   ├─face.param
+    │   ├─face1.bin
+    │   ├─face1.param
+    │   ├─landmark106.bin
+    │   ├─landmark106.param
+    │   ├─mobilefacenet.bin
+    │   ├─mobilefacenet.param
+    │   ├─mobilenetv2-yolov3-128x128-0.5.bin
+    │   ├─mobilenetv2-yolov3-128x128-0.5.param
+    │   ├─yolo-fastest.bin
+    │   └─yolo-fastest.param
+    ├─User-information
+    │   ├─Han-Wei
+    │   │   ├─sample0.jpg
+    │   │   └─sample1.jpg
+    │   ├─Qing-Long
+    │   │   ├─sample0.jpg
+    │   │   └─sample1.jpg
+    │   └─RUI-LI
+    │       ├─sample0.jpg
+    │       └─sample1.jpg
+    ├─icon
+    │   ├─head0.jpg
+    │   ├─head1.jpg
+    │   ├─phone0.jpg
+    │   ├─phone1.jpg
+    │   ├─sleep0.jpg
+    │   ├─sleep1.jpg
+    │   ├─smoke0.jpg
+    │   └─smoke1.jpg
+    └─DMS
 ```  
