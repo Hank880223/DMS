@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project( facenet )
+project( DMS )
 
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
@@ -11,4 +11,4 @@ include_directories( install/include/ncnn )
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-target_link_libraries( facenet ${OpenCV_LIBS} /Users/hank/Desktop/ncnn-mtcnn-facenet-master/MacOS/install/lib/libncnn.a)
+target_link_libraries( DMS ${OpenCV_LIBS} /Users/hank/Desktop/ncnn-mtcnn-facenet-master/MacOS/install/lib/libncnn.a)
