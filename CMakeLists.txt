@@ -7,8 +7,8 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 aux_source_directory(./src/ SRC_LIST)
 add_executable(${PROJECT_NAME} ${SRC_LIST})
 
-include_directories( install/include/ncnn )
+include_directories( include/ncnn )
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-target_link_libraries( DMS ${OpenCV_LIBS} /Users/hank/Desktop/ncnn-mtcnn-facenet-master/MacOS/install/lib/libncnn.a)
+target_link_libraries( DMS ${OpenCV_LIBS} /Users/hank/Desktop/DMS/lib/libncnn.a)
